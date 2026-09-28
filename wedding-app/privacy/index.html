@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Wedding App</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    line-height: 1.6;
+    color: #1c1c1e;
+  }
+  h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  h3 { font-size: 1rem; margin-top: 1.25rem; }
+  .updated { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+  a { color: #0066cc; }
+  ul { padding-left: 1.25rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for Wedding App</h1>
+<p class="updated">Last updated: September 28, 2026</p>
+
+<p>This Privacy Policy describes how Wedding App ("the App," "we," "us") collects, uses, and protects your information. The App is a wedding planning tool that lets two partners share a guest list, budget, checklist, and seating chart.</p>
+
+<h2>1. Information We Collect</h2>
+
+<h3>Account information</h3>
+<p>When you sign in, we collect the minimum information needed to create your account:</p>
+<ul>
+  <li><strong>Sign in with Apple</strong>: your name and email address (or Apple's private relay email, if you choose to hide your email), as provided by Apple.</li>
+  <li><strong>Email/password sign-in</strong>: the email address and password you provide. Passwords are handled entirely by Firebase Authentication and are never visible to us in plain text.</li>
+</ul>
+
+<h3>Wedding planning data</h3>
+<p>To provide the App's features, we store the information you and your partner enter, including:</p>
+<ul>
+  <li>Partner names, wedding date, venue name and address, ceremony/reception times, and total budget</li>
+  <li>Guest list entries: guest names, RSVP status, meal choice, plus-one counts, group (e.g. family/friends), notes, and table assignments</li>
+  <li>Checklist items: titles, due dates, completion status, and notes</li>
+  <li>Budget items: titles, categories, estimated/actual costs, and payment status</li>
+  <li>Seating tables: names and capacity</li>
+  <li>An activity log recording which partner made a given change (e.g. "added a guest"), so you can both see recent updates</li>
+</ul>
+<p>This data is stored in Google Firebase (Cloud Firestore) and is shared only between the two partners linked to the same wedding — access is enforced by server-side security rules, so no other user can read or write it.</p>
+
+<h3>Device security information</h3>
+<p>We use Firebase App Check to verify that requests to our backend come from a genuine, untampered copy of the App running on a real device. On iOS this uses Apple's App Attest service, which shares device integrity attestations with Google — it does not identify you personally.</p>
+
+<h3>Biometric data</h3>
+<p>If you enable the optional Face ID / Touch ID app lock, authentication is handled entirely on-device by Apple's LocalAuthentication framework. We never receive, transmit, or store your biometric data — only a simple on/off preference is saved locally on your device.</p>
+
+<h2>2. How We Use Your Information</h2>
+<p>We use the information above to:</p>
+<ul>
+  <li>Create and secure your account</li>
+  <li>Sync wedding planning data between you and your partner in real time</li>
+  <li>Let you access your data across your own devices</li>
+  <li>Detect and prevent abuse or unauthorized access (App Check)</li>
+</ul>
+<p>We do not use your information for advertising, and we do not run analytics or crash-reporting SDKs that track your behavior.</p>
+
+<h2>3. How We Share Your Information</h2>
+<ul>
+  <li><strong>Your partner</strong>: wedding planning data is shared with the one other person who joins your wedding using your invite code.</li>
+  <li><strong>Service providers</strong>: we use Google Firebase (Authentication, Cloud Firestore, App Check) to operate the App. Google processes this data on our behalf under its own <a href="https://policies.google.com/privacy">privacy policy</a>.</li>
+  <li><strong>Apple</strong>: if you use Sign in with Apple, Apple processes your authentication per its <a href="https://www.apple.com/legal/privacy/">privacy policy</a>.</li>
+</ul>
+<p>We do not sell your personal information, and we do not share it with third parties for their own marketing purposes.</p>
+
+<h2>4. Data Retention and Deletion</h2>
+<p>Your data is retained for as long as your account is active. You can delete your account at any time from within the App (Account Settings → Delete Account), which permanently erases your wedding planning data and deletes your authentication record. This action cannot be undone.</p>
+
+<h2>5. Your Rights</h2>
+<p>Depending on where you live, you may have the right to access, correct, export, or delete your personal information. You can do most of this yourself in the App; for anything else, contact us using the details below.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>The App is not directed to children under 13, and we do not knowingly collect information from children under 13.</p>
+
+<h2>7. Security</h2>
+<p>We use industry-standard measures to protect your data, including encrypted network connections (TLS), server-side access rules that restrict data to the two members of a wedding, and Firebase App Check to block unauthorized clients. An optional on-device biometric lock adds an extra layer of protection if your device is left unlocked.</p>
+
+<h2>8. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be reflected by the "Last updated" date above.</p>
+
+<h2>9. Contact Us</h2>
+<p>If you have questions about this Privacy Policy or your data, contact us at:</p>
+<p><strong>Luke Fordham</strong><br>
+<a href="mailto:WeddingApp-Support@FordhamGreenStudio.co.uk">WeddingApp-Support@FordhamGreenStudio.co.uk</a></p>
+
+</body>
+</html>
